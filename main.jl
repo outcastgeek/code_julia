@@ -9,3 +9,7 @@ function foo(data, origin)
     
     return df |> @vlplot(:point, :Acceleration, :Miles_per_Gallon)
 end
+
+p = foo(cars, "USA")
+
+p |> save("foo.png")
