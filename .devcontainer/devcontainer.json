@@ -1,4 +1,8 @@
 {
     "image": "julia",
-    "extensions": ["julialang.language-julia"]
+    "extensions": [
+        "julialang.language-julia",
+        "jdinhlife.gruvbox",
+        "equinusocio.vsc-material-theme-icons"
+    ]
 }
